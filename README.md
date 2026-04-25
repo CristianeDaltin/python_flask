@@ -17,11 +17,16 @@ pip install pytest
 pip install pytest-flask
 ```
 
+ou se houver o aquivo requeriments.txt
+```
+pip install -r requeriments.txt
+```
+
 - Salva a lista de pacotes instalados 
-- no arquivo requirementes.txt
+- no arquivo requeriments.txt
 - isso permite que outras pessoas instalem as mesmas versões
 ```python 
-pip freeze > requirements.txt
+pip freeze > requeriments.txt
 ```
 ## Criar o aquivo .gitignore
 - Diz ao git quais arquivos e pastas **NÃO devem ser versionados**.
